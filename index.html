@@ -6,31 +6,107 @@
     <link href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital@0;1&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Twinkie" property="og:title" />
+    <meta content="Twinkie is a free and open source QOL modification for Trackmania Forever." property="og:description" />
+    <meta content="https://github.com/TwinkieTweaks/Twinkie/blob/master/Media/t528.png?raw=true" property="og:image" />
+    <meta content="#ff00ff" data-react-helmet="true" name="theme-color" />
     <title>Twinkie - Trackmania Forever</title>
 </head>
 <body>
     <center>
         <div id="main-container" class="cascadia-mono">
-	        <img src="https://github.com/TwinkieTweaks/Twinkie/blob/master/Media/t528.png?raw=true" width="66" height="66"/>
-            <h1><a href="https://github.com/TwinkieTweaks/Twinkie">Twinkie</a></h1>
+            <div id="secondary-container">
+                <img src="https://github.com/TwinkieTweaks/Twinkie/blob/master/Media/t528.png?raw=true" width="66" height="66"/>
+                
+                <h1><a href="https://github.com/TwinkieTweaks/Twinkie" target="_blank">Twinkie</a></h1>
+                <p class="first-p">Twinkie is a free and open source QOL modification for Trackmania Forever.</p>
+                
+		<h2>Download</h2>
+		<p class="first-p">Twinkie is available to download from <a href="https://github.com/TwinkieTweaks/Twinkie/releases/">Github</a></p>
+
+                <h2>Features</h2>
+                <ul>
+                    <li>Ghost Editor, allows you to access the ghost editor without the cheat code</li>
+                    <li>Dashboard, an input display and gear display (tachometer, and gear number indicator) with customizable options</li>
+                    <li>Checkpoint counter, does what it says right on the tin</li>
+                    <li>Medals window, for easily viewing medals</li>
+                    <li class="last-li">Tweaker, for customizing your render distance (even though TMUnlimiter already does that)</li>
+                </ul>
+                
+                <h2>Limitations</h2>
+                <ul>
+                    <li>For some people, the F3 keybind to close the window doesn't work</li>
+                    <li class="last-li">Medal.tv randomly works and randomly doesn't</li>
+                </ul>
+            </div>
         </div>
     </center>
 </body>
 
 <style>
     .cascadia-mono {
-      font-family: "Cascadia Mono", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: normal;
+        font-family: "Cascadia Mono", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    #secondary-container {
+        text-align: left;
     }
 
     body {
         background-color: #300030;
     }
 
+    p {
+        margin-left: 5px;
+	    margin-top: 0px;
+        margin-bottom: 5px;
+        color: #EEEEEE;
+    }
+
+    .first-p {
+        margin-top: 5px !important;
+    }
+
+    li {
+        color: #EEEEEE;
+    	margin-left: 5px;
+        margin-top: 5px;
+        border-bottom-style: solid;
+        border-bottom-color: #FF00FF30;
+        border-bottom-width: 1px;
+        padding-bottom: 5px;
+    }
+
+   .last-li {
+       border-bottom-style: none !important;
+   }
+
     h1 {
         color: #FF00FF;
+        border-bottom-style: solid;
+        border-bottom-color: #FF00FF30;
+        border-bottom-width: 1px;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    ul {
+	list-style-type: none;
+        margin-top: 5px;
+	margin-bottom: 5px;
+        padding: 0px;
+    }
+
+    h2 {
+    	color: #FF00FF;
+        border-bottom-style: solid;
+        border-bottom-color: #FF00FF30;
+        border-bottom-width: 1px;
+        padding: 5px;
+        margin: 0px;
     }
 
     a {
