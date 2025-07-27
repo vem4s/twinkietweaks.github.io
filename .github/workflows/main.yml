@@ -1,6 +1,6 @@
 name: Build and Deploy Twinkie Page
 
-on:
+on: 
   push:
     branches:
       - main  # or your main branch name
