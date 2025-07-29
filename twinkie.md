@@ -2,7 +2,7 @@
 
 # [Twinkie](https://github.com/TwinkieTweaks/Twinkie)
 
-**Twinkie** is a free and open source QOL modification for Trackmania Forever.
+<p class="first-p">Twinkie is a free and open source QOL modification for Trackmania Forever.</p>
 
 ## Download
 

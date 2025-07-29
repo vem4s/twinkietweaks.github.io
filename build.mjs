@@ -1,11 +1,12 @@
 import fs from "fs";
 import { marked } from "marked";
+const imgWidth = 320
+const imgHeight = 180
 
 class CustomRenderer extends marked.Renderer {
   paragraph(text) {
     if (typeof text !== "string") return `<p>${text}</p>`;
     if (text.includes("<img")) return `<p>${text}</p>`;
-    if (text.includes("open source QOL")) return `<p class="first-p">${text}</p>`;
     return `<p class="first-p">${text}</p>`;
   }
 
