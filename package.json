@@ -1,0 +1,27 @@
+{
+  "name": "twinkietweaks.github.io",
+  "type": "module",
+  "version": "0.0.69",
+  "description": "TwinkieTweaks website",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwinkieTweaks/twinkietweaks.github.io.git"
+  },
+  "keywords": [
+    "cool"
+  ],
+  "author": "CodyNinja1 aka jailman and vem4s aka loudsynth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TwinkieTweaks/twinkietweaks.github.io/issues"
+  },
+  "homepage": "https://github.com/TwinkieTweaks/twinkietweaks.github.io#readme",
+  "dependencies": {
+    "marked": "^16.1.1"
+  }
+}
