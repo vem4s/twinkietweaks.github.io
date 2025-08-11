@@ -1,0 +1,21 @@
+{
+   "api":1,
+   "game":"TmForever",
+   "products":{
+      "TwinkieTweaks":{
+         "name":"Twinkie",
+         "author":"Jailman",
+         "type":"modification",
+         "description":"QOL tools for Trackmania Forever",
+         "icon_link":"https://raw.githubusercontent.com/TwinkieTweaks/Twinkie/refs/heads/master/Media/t528.png",
+         "homepage":"https://github.com/TwinkieTweaks/Twinkie",
+         "versions":{
+            "1.7.2":{
+               "executable":"TwinkieModloader.dll",
+               "download_link":"https://github.com/TwinkieTweaks/Twinkie/releases/download/v1.7.2/TwinkieModloader.zip",
+               "hash_sha256":"046b3d34b353f0f59069a2a654165e0163e4fce3a455d4534d49146bee2ca27c"
+            }
+         }
+      }
+   }
+}
