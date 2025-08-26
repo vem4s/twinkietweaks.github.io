@@ -51,8 +51,9 @@ htmlBody = htmlBody.replace(
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin />
-	<link href="https://api.fonts.coollabs.io/css2?family=Cascadia+Mono:ital@0;1&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital@0;1&display=swap" rel="stylesheet">
 	<link rel="icon" type="image/x-icon" href="favicon.ico"/>
 	
 	<meta charset="UTF-8">
